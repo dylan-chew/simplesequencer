@@ -58,6 +58,11 @@ app.get('/', function(req, res){
 })
 
 //Listen on a port
-app.listen(3000, function(){
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
+}
+app.listen(port, function(){
     console.log('Server started on Port 3000...')
 });
