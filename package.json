@@ -1,0 +1,16 @@
+{
+  "name": "sequencerapp",
+  "version": "1.0.0",
+  "description": "Simple Sequencer App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.6.1",
+    "express": "*"
+  },
+  "author": "Dylan Chew",
+  "license": "ISC"
+}
